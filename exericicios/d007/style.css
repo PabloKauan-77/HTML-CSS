@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.imagem-responsiva img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagem-grande {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .imagem-pequena {
+        display: none;
+    }
+
+    .imagem-grande {
+        display: block;
+        width: 50%;
+    }
+}
