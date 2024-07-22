@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframes</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        iframe#tela{
+
+        iframe#tela {
             width: 95vw;
             height: 400px;
             border: 2px solid black;
         }
     </style>
 </head>
+
 <body>
     <h1>Faça sua escolha</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque tempore dicta esse magni nesciunt cumque suscipit temporibus accusantium ut fugiat enim consequuntur obcaecati sed distinctio aperiam, excepturi, saepe asperiores autem?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque tempore dicta esse magni nesciunt cumque
+        suscipit temporibus accusantium ut fugiat enim consequuntur obcaecati sed distinctio aperiam, excepturi, saepe
+        asperiores autem?</p>
 
     <ul>
         <li><a href="paginas_extras/pag001.html" target="frame">primeira página</a></li>
         <li><a href="/exericicios/ex023/tabela004.html" target="frame">segunda página</a></li>
         <li><a href="/exericicios/ex023/tabela005.html" target="frame">terceira página</a></li>
     </ul>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nulla adipisci corrupti magnam, qui quia nemo ea impedit a tenetur ducimus vel sequi velit sed rerum quas! Neque, reiciendis officiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nulla adipisci corrupti magnam, qui quia nemo ea
+        impedit a tenetur ducimus vel sequi velit sed rerum quas! Neque, reiciendis officiis.</p>
 
-    <iframe id="tela" name="frame" src="">
+
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das opções a cima</h1>">
         infelizmente seu navegador não é compativel
     </iframe>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt ducimus pariatur tenetur praesentium quas optio similique commodi ullam, nisi harum at dolorem earum a beatae, accusamus possimus animi, alias eaque?</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt ducimus pariatur tenetur praesentium quas
+        optio similique commodi ullam, nisi harum at dolorem earum a beatae, accusamus possimus animi, alias eaque?</p>
 </body>
+
 </html>
