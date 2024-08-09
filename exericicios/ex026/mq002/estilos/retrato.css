@@ -1,1 +1,7 @@
 @charset "UTF-8";
+
+body{
+    background-image: url(/exericicios/ex026/mq002/imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-position: center bottom;
+}
